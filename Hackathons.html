@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - Boggarapu Dhanush</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo-container">
+                    <img src="indeximages/name.jpg" class="logo">
+                    <div class="logo-text">
+                        hanush Boggarapu
+                    </div>
+                </div>
+
+                <div class="nav-items">
+                    <div id="Projects"><a href="#projects">Projects</a></div>
+                    <div><a href="#skills">Skills</a></div>
+                    <div><a href="#contactme">Contact Me</a></div>
+                    <div id="Hackathons"><a href="#hackathons">Hackathons</a></div>
+                </div>
+            </div>
+            <div class="gallery">
+                <figure class="card">
+                    <img src="image1.jpg">
+                    <figcaption>Image 1</figcaption>
+                </figure>
+                
+                <figure class="card">
+                <img src="image2.jpg">
+                <figcaption>Image 2</figcaption>
+            </figure>
+            
+            <figure class="card">
+                <img src="image3.jpg">
+                <figcaption>Image 3</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="image4.jpg">
+                <figcaption>Image 4</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="image5.jpg">
+                <figcaption>Image 5</figcaption>
+            </figure>
+
+            <figure class="card">
+                <img src="image6.jpg">
+                <figcaption>Image 6</figcaption>
+            </figure>
+
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    const redirectButtonHackathons = document.getElementById('Hackathons');
+    
+    // Add a click event listener to the button
+    redirectButtonHackathons.addEventListener('click', () => {
+        // Redirect to the new HTML page
+        window.location.href = 'Hackathons.html';
+    });
+    
+    const redirectButtonProjects = document.getElementById('Projects');
+
+    // Add a click event listener to the button
+    redirectButtonProjects.addEventListener('click', () => {
+        // Redirect to the new HTML page
+        window.location.href = 'index.html';
+    });
+
+</script>
+
+</html>
